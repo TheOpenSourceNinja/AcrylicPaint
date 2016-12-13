@@ -36,17 +36,20 @@ public class MyViewTest {
 	
 	@Test
 	public void onSizeChanged( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void onDraw( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void onTouchEvent( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 }

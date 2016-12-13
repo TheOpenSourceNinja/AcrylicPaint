@@ -36,42 +36,50 @@ public class LinePathTest {
 	
 	@Test
 	public void getLastX( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void getLastY( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void touchStart( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void touchMove( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void isDisassociatedFromPointer( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void isAssociatedToPointer( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void disassociateFromPointer( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 	@Test
 	public void associateToPointer( ) throws Exception {
-		
+		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
+		assertFalse( "Test not implemented", true );
 	}
 	
 }
