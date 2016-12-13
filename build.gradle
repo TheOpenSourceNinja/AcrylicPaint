@@ -1,10 +1,11 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin:'java'
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.1'
+        classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
 
@@ -12,4 +13,11 @@ allprojects {
     repositories {
         jcenter()
     }
+}
+
+dependencies {
+	//Required for local unit testing: JUnit 4 framework
+	testCompile 'junit:junit:4.12'
+	//Optional for local unit testing: Mockito (for creating mock Android objects on non-Android computers)
+	testCompile 'org.mockito:mockito-core:1.10.19'
 }
