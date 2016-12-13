@@ -213,7 +213,7 @@ public class EasyPaint extends GraphicsActivity implements
 
 			public boolean isAssociatedToPointer(int idPointer) {
 				return this.idPointer != null
-						&& (int) this.idPointer == idPointer;
+						&& this.idPointer == idPointer;
 			}
 
 			public void disassociateFromPointer() {
