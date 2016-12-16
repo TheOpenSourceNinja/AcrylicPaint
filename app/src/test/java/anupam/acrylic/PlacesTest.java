@@ -21,7 +21,21 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
+
 import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.allOf;
+import static org.hamcrest.CoreMatchers.anyOf;
+import static org.hamcrest.CoreMatchers.both;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.everyItem;
+import static org.hamcrest.CoreMatchers.hasItems;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.CoreMatchers.sameInstance;
+import static org.hamcrest.CoreMatchers.startsWith;
+import static org.hamcrest.CoreMatchers.endsWith;
+import org.hamcrest.core.CombinableMatcher;
 
 public class PlacesTest {
 	@Before
@@ -34,10 +48,12 @@ public class PlacesTest {
 		
 	}
 	
+	/*
 	@Test
 	public void getScreenshotFolder( ) throws Exception {
-		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
-		assertFalse( "Test not implemented", true );
+		Places testObject = new Places();
+		File folder = testObject.getScreenshotFolder();
+		assertThat( folder.getPath(), endsWith( "/Acrylic Paint/" ) );
 	}
 	
 	@Test
@@ -51,5 +67,5 @@ public class PlacesTest {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
-	
+	*/
 }

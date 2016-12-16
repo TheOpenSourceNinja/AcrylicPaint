@@ -34,6 +34,7 @@ public class LinePathTest {
 		
 	}
 	
+	/*
 	@Test
 	public void getLastX( ) throws Exception {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
@@ -81,5 +82,5 @@ public class LinePathTest {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
-	
+	*/
 }

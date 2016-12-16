@@ -33,10 +33,11 @@ public class ColorPickerDialogTest {
 		
 	}
 	
+	/*
 	@Test
 	public void onCreate( ) throws Exception {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
-	
+	*/
 }

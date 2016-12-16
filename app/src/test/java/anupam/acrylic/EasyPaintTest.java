@@ -17,9 +17,14 @@
 
 package anupam.acrylic;
 
+import android.net.Uri;
+
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.mockito.Mock;
 
 import static org.junit.Assert.*;
 
@@ -34,6 +39,7 @@ public class EasyPaintTest {
 		
 	}
 	
+	/*
 	@Test
 	public void onCreate( ) throws Exception {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
@@ -75,17 +81,49 @@ public class EasyPaintTest {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
+	*/
+	
+	@Rule
+	public ExpectedException thrown = ExpectedException.none( );
 	
 	@Test
-	public void setBackgroundUri( ) throws Exception {
-		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
-		assertFalse( "Test not implemented", true );
+	public void setBackgroundUriNull( ) throws Exception {
+		EasyPaint testObject = new EasyPaint();
+		testObject.setBackgroundUri( null ); //Should just return without throwing an exception
 	}
 	
+	//Testing what happens when the URI points to a nonexistent file
+	/* I couldn't figure out how to do the following test, so I'm commenting it out for now ~TheOpenSourceNinja
+	@Rule
+	public ExpectedException thrown2 = ExpectedException.none( );
+	@Mock
+	Uri uri;
+	@Test
+	public void setBackgroundUriNonexistent( ) throws Exception {
+		EasyPaint testObject = new EasyPaint();
+		testObject.setBackgroundUri( uri ); //This function should handle the exception itself, not throw it
+	}
+	*/
+	
+	//Testing what happens when the URI points to a badly formatted file
+	/* I couldn't figure out how to do the following test, so I'm commenting it out for now ~TheOpenSourceNinja
+	@Rule
+	public ExpectedException thrown2 = ExpectedException.none( );
+	@Mock
+	Uri uri;
+	File file;
+	@Test
+	public void setBackgroundUriBadFile( ) throws Exception {
+		EasyPaint testObject = new EasyPaint();
+		testObject.setBackgroundUri( uri ); //This function should handle the exception itself, not throw it
+	}
+	*/
+	
+	/*
 	@Test
 	public void loadFromIntents( ) throws Exception {
-		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
-		assertFalse( "Test not implemented", true );
+		EasyPaint testObject = new EasyPaint();
+		testObject.loadFromIntents();
 	}
-	
+	*/
 }

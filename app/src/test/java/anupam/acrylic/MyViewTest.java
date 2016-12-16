@@ -34,6 +34,7 @@ public class MyViewTest {
 		
 	}
 	
+	/*
 	@Test
 	public void onSizeChanged( ) throws Exception {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
@@ -51,5 +52,5 @@ public class MyViewTest {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
-	
+	*/
 }

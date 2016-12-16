@@ -34,6 +34,7 @@ public class PictureLayoutTest {
 		
 	}
 	
+	/*
 	@Test
 	public void addView( ) throws Exception {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
@@ -87,5 +88,5 @@ public class PictureLayoutTest {
 		//Just creating some dummy tests for now. They will always fail. Replace this with a real test:
 		assertFalse( "Test not implemented", true );
 	}
-	
+	*/
 }

@@ -376,7 +376,7 @@ public class EasyPaint extends GraphicsActivity implements
 	public boolean onOptionsItemSelected(MenuItem item) {
 		mPaint.setXfermode(null);
 		mPaint.setAlpha(0xFF);
-
+		
 		switch (item.getItemId()) {
 			case R.id.extract_color_menu: {
 				Toast.makeText(getApplicationContext(),

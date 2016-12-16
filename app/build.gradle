@@ -23,5 +23,11 @@ android {
 }
 
 dependencies {
+	//Required for local unit testing: JUnit 4 framework
     testCompile 'junit:junit:4.12'
+	//Required for local unit testing: Mockito (for creating mock Android objects on non-Android computers)
+    testCompile 'org.mockito:mockito-core:1.10.19'
+	//Required for unit testing
+	compile 'com.android.support:support-annotations:24.2.0'
+    testCompile 'org.hamcrest:hamcrest-library:1.3'
 }
